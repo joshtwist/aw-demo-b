@@ -23,6 +23,8 @@
           },
           "policies": {
             "inbound": [
+              "api-key-inbound",
+              "custom-code-inbound",
               "rate-limit-inbound"
             ]
           }
